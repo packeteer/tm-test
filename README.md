@@ -16,3 +16,7 @@ This project depends on the following, please make sure they're available
 ## Deploy to AWS
 
 Please ensure you have your AWS credentials setup, then run *sls deploy*
+
+## Notes on scaling
+
+By default, AWS Lambda limits the total concurrent executions across all functions within a given region (max 500 in most regions). The default limit is a safety limit that protects you from costs due to potential runaway or recursive functions during initial development and testing. To increase this limit above the default, contact AWS Support
