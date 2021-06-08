@@ -65,7 +65,7 @@ You can now send an HTTP request directly to the endpoint using a tool like curl
 curl https://XXXXXXX.execute-api.ap-southeast-2.amazonaws.com/production
 ```
 ## Notes on admin
-If you wanted to give operational control to another team, you could use something like the following, or better yet, use the provided terraform code:
+If you wanted to give operational control to another team, you could use something like the following, or better yet, use the provided [terraform code](terraform/README.md):
 
 ````bash
 aws iam create-group --group-name operations
