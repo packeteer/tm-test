@@ -27,6 +27,5 @@ functions:
           path: /
           method: get
 
-
 plugins:
   - serverless-plugin-resource-tagging
